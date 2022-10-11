@@ -5,7 +5,7 @@ Esse é o projeto do curso **Guardando informações localmente** da formação 
 ## 📱 Projeto
 
 O objetivo deste projeto é criar um aplicativo que armazena notas no seu celular. A aplicação deste projeto para a Escola Matriz está em armazenar, alterar e salvar notas como lembrete das tarefas dos projetos MatrizKIDS, MatrizCast e Matriz4YOU para serem lembradas e consultadas.
-Veja alguns prints de como ficou a aplicação
+Veja alguns prints de como ficou a aplicação.
 
 <img src="https://user-images.githubusercontent.com/101336111/195085880-937f483e-fc20-466a-b042-65feda4c4c6c.png" width="300" height="600"> <img src="https://user-images.githubusercontent.com/101336111/195085902-56daa7f8-8745-4566-9c11-e68e5cb204fa.png" width="300" height="600"> <img src="https://user-images.githubusercontent.com/101336111/195085909-6328d039-d65c-432f-bb66-9216d7fcae6e.png" width="300" height="600">
 <img src="https://user-images.githubusercontent.com/101336111/195085920-129bd198-e068-4827-bd0e-310ef54fb5b4.png" width="300" height="600">
@@ -44,7 +44,7 @@ E o melhor, um caderno que cabe no nosso bolso e estamos sempre em mão, ou seja
     - Limitação de espaço para Android:
       - Máximo de 6MB, sendo 2MB por entrada.
     - Informações não são criptografadas.
-    - Não consegue fazer consultas (só pega a informação inteira) e não lida com o conceito de relacionamento de dados (diferentes objetos que pussuem dados comuns
+    - Não consegue fazer consultas (só pega a informação inteira) e não lida com o conceito de relacionamento de dados (diferentes objetos que possuem dados comuns
     que se relacionam entre eles).
   
 - SQLite
@@ -55,7 +55,7 @@ E o melhor, um caderno que cabe no nosso bolso e estamos sempre em mão, ou seja
   
 - Entidade (em Banco de Dados):
   - Em modelagem, entidade é tudo aquilo sobre o qual desejamos guardar alguma informação. É um objeto existente no mundo real, com uma identificação distinta e 
-  significado próprio. São coisas que existem no negócio, ou ainda, que descrevem o negócio em sí. Se algo existe e proporciona algum interesse em manter dados
+  significado próprio. São coisas que existem no negócio, ou ainda, que descrevem o negócio em si. Se algo existe e proporciona algum interesse em manter dados
   sobre ele, isso caracteriza como uma entidade deste negócio. Sendo assim, ela é uma tabela em nosso banco de dados.
   - Exemplo:
     - Pessoa: A, CPF: 0123456789, é uma entidade uma vez que só pode existir uma única pessoa com o mesmo nome e CPF.
@@ -64,17 +64,17 @@ E o melhor, um caderno que cabe no nosso bolso e estamos sempre em mão, ou seja
 - Atributos:
   - São propriedades/características que identificam as entidades. 
     - Exemplos:
-      - Entidade: cliente / Atributos: nome, edereço, telefone e cidade.
+      - Entidade: cliente / Atributos: nome, endereço, telefone e cidade.
       - Entidade: funcionário / Atributos: salário, cargo e departamento.
   - Existem 4 tipos de atributos: simples, composto, multivalorado e determinante.
     - Simples: a grade maioria, não possui características especiais.
-    - Composto: pode ser desmenbrado em vários atributos simples.
+    - Composto: pode ser desmembrado em vários atributos simples.
       - Exemplo:
         - Atributo: endereço (rua, n°, complemento, bairro, CEP e cidade).
     - Multivalorado: o seu conteúdo é formado por mais de um valor.
       - Exemplo: 
         - Atributo: telefone celular (uma pessoa pode ter mais de um número).
-      - É indicado colocando-se um asterísco precedendo o nome do atributo.
+      - É indicado colocando-se um asterisco precedendo o nome do atributo.
     - Determinante: identifica de forma única uma entidade, ou seja, não pode haver outro repetido/igual.
       - Exemplo: Atributo: CNPJ ou CPF.
       - É indicado sublinhando-se o nome do atributo.
